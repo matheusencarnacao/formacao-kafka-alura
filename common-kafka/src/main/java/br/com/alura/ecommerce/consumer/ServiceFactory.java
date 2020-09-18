@@ -2,5 +2,5 @@ package br.com.alura.ecommerce.consumer;
 
 public interface ServiceFactory<T> {
 
-    ConsumerService create();
+    ConsumerService create() throws Exception;
 }
